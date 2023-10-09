@@ -1,0 +1,154 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#sec1{
+
+    background-color: #24253a;
+
+}
+
+.tittle{
+    color: black;
+}
+
+.navAbierto{
+    padding-top: 2rem;
+    background-color: white;
+    border-radius: 10px 10px 0 0 ;
+    width: 105%;
+    box-shadow: inset 0px -5px 5px #141420;
+    height: 20rem;
+    }
+
+.nav{
+        padding-top: 1rem;
+        background-color: white;
+        border-radius: 10px 10px 0 0 ;
+        width: 105%;
+        box-shadow: inset 0px -5px 5px #141420;
+        margin-bottom: 2rem;
+        }
+
+ 
+.cajaP{
+    
+    background-color: #24253a;
+    margin: 10% auto 5rem;
+    height: 41rem;
+    padding: 20px;
+    border-radius: 45px;
+    background: #24253a;
+    box-shadow:  9px 9px 18px #141420,
+                 -9px -9px 18px #343654;
+                 transition: 0.7s;
+}
+
+
+
+.buscador{
+    width: 260px;
+    border: none;
+    border-bottom: 2px solid #343654;
+    margin-bottom: 0.5rem;
+}
+
+
+#portada img{
+
+    height: 30vh;
+    width: 30vh;
+    border-radius:50% ;
+    filter: brightness(0.75);
+    transition: 0.7s;
+    background: #24253a;
+    box-shadow:  9px 9px 18px #0c0c16,
+                 -9px -9px 18px #8e91c9;
+                 transition: 0.7s;
+}
+
+#portada img:hover{
+
+    height: 45vh;
+    width: 45vh;
+    border-radius:10%;
+    filter: brightness(1);
+    transition: 0.5s;
+    background: #24253a;
+    box-shadow:  9px 9px 18px #141420,
+                 -9px -9px 18px #545680;
+                 transition: 0.7s;
+}
+
+.controls{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #24253a;
+    margin: 1rem auto;
+    padding: 20px;
+    border-radius: 45px;
+    background: #24253a;
+    box-shadow:  9px 9px 18px #141420,
+                 -9px -9px 18px #343654;
+                 transition: 0.7s;
+}
+
+#btnMenu{
+border-radius: 50%;
+height: 4vh;
+width: 4vh;
+}
+
+.controls button{
+    margin: 0 auto;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    border: 1px rgba(255, 255, 255, 0.616) solid;
+    border-radius: 50%;
+    background: #24253a;
+    box-shadow:  9px 9px 18px #141420,
+                 -9px -9px 18px #343654;
+}
+
+  #btnplay, #btnpause{
+    height: 3rem;
+    width: 3rem;
+    border: none;
+  }
+
+  #btnplay:hover, #btnpause:hover{
+    height: 3.1rem;
+    width: 3.1rem;
+    border: none;
+    box-shadow: inset 2px 2px 5px #141420;
+    border: 3px rgba(107, 107, 107, 0.438) solid;
+  }
+ 
+
+  #btnplay{
+    background-color: #038329;
+  }
+
+  #btnpause{
+    background-color: #c52121;
+  }
+
+  .controls button:hover {
+    background-color: rgb(245, 111, 22);
+    border: 3px rgba(107, 107, 107, 0.438) solid;
+    height: 3.5rem;
+    width: 3.5rem;
+    transition: 0.2s;
+    box-shadow: inset 2px 2px 5px #141420;
+  }
+
+
+
+ 
+
+  
+
+
